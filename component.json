@@ -1,7 +1,7 @@
 {
 	"name": "mage-message-stream.js",
 	"repo": "mage/message-stream.js",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "MAGE's message stream",
 	"dependencies": {
 		"component/emitter": "1.1.3",
