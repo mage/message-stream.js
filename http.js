@@ -108,6 +108,11 @@ function HttpPollingClient(style, cfg) {
 	};
 
 
+	this.getUnconfirmed = function () {
+		return confirmIds.slice();
+	};
+
+
 	this.abort = function () {
 		hr.abort();
 		this.isRunning = false;

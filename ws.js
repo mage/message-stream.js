@@ -118,6 +118,11 @@ function WebSocketClient(cfg) {
 	};
 
 
+	this.getUnconfirmed = function () {
+		return confirmIds.slice();
+	};
+
+
 	this.abort = function () {
 		if (ws) {
 			ws.onclose = null;
