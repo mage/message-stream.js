@@ -1,6 +1,6 @@
-var EventEmitter = require('emitter');
 var HttpRequest = require('mage-http-request.js');
-var inherits = require('inherit');
+var EventEmitter = require('events');
+var inherits = require('util').inherits;
 
 
 function HttpPollingClient(style, cfg) {

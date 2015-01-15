@@ -1,5 +1,8 @@
 # mage-message-stream.js changelog
 
+## v0.1.2
+ * Replaced component/inherits and component/emitter with Wizcorp counterparts.
+
 ## v0.1.1
  * Expose which message IDs have not yet been confirmed through getUnconfirmed()
 
