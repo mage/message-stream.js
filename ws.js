@@ -85,6 +85,13 @@ function WebSocketClient(cfg) {
 				return;
 			}
 
+			for (var i = 0; i < confirmIds.length; i++) {
+				var id = confirmIds[i];
+				if (msg[id]) {
+					delete msg[id];
+				}
+			}
+
 			that.emit('delivery', msg);
 		};
 
