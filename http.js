@@ -58,6 +58,10 @@ function HttpPollingClient(style, cfg) {
 
 
 	send = function () {
+		if (!that.isRunning) {
+			return;
+		}
+
 		lastError = null;
 
 		var params = {

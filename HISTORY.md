@@ -1,5 +1,8 @@
 # mage-message-stream.js changelog
 
+## v0.1.4
+ * HTTP pollers (especially short polling) could query despite being aborted.
+
 ## v0.1.3
  * Fix in WebSocket stream that could emit the same message more than once.
 
