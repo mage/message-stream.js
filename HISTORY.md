@@ -1,5 +1,8 @@
 # mage-message-stream.js changelog
 
+## v0.1.5
+ * bumped http-request.js version to 0.1.2
+
 ## v0.1.4
  * HTTP pollers (especially short polling) could query despite being aborted.
 
